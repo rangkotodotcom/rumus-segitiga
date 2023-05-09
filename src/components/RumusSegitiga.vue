@@ -1,7 +1,7 @@
 <template>
-    Alas : <input type="text" v-model="alas" v-on:keyup="hitung" placeholder="Alas">
+    Alas : <input type="number" v-model="alas" v-on:keyup="hitung" placeholder="Alas">
     <br>
-    Tinggi : <input type="text" v-model="tinggi" v-on:keyup="hitung" placeholder="Tinggi">
+    Tinggi : <input type="number" v-model="tinggi" v-on:keyup="hitung" placeholder="Tinggi">
     <br>
     <br>
     Menghitung Luas Segitiga:
